@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mudau | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header id="site-header">
+    <nav class="navbar">
+      <span class="logo">[M.M]</span>
+      <ul class="nav-links">
+        <li><a href="#home"     class="nav-link" data-section="home">Home</a></li>
+        <li><a href="#about"    class="nav-link" data-section="about">About</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#contact"  class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label=""Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="#home"     class="mobile-link">Home</a></li>
+        <li><a href="#about"    class="mobile-link">About</a></li>
+        <li><a href="#projects" class="mobile-link">Projects</a></li>
+        <li><a href="#contact"  class="mobile-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+  <!-- SECTION 1: HOME -->
+  <section id="home">
+    <div class="home-inner">
+
+      <!-- Profile photo placeholder. When you have a photo:
+           1. Save it as profile.jpg in your portfolio folder
+           2. Delete the div.photo-placeholder below
+           3. Uncomment the img tag -->
+      <!-- <img src="profile.jpg" alt="Your Name" class="profile-photo" /> -->
+      <div class="photo-placeholder">
+        <svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="40" cy="28" r="18" fill="currentColor" opacity="0.4"/>
+          <path d="M5 75 Q5 55 40 55 Q75 55 75 75" fill="currentColor" opacity="0.4"/>
+        </svg>
+      </div>
+
+      <p class="greeting">Hello, I'm</p>
+
+      <!-- REPLACE: Your full name -->
+      <h1>Mudau Muimeleli</h1>
+
+      <!-- REPLACE: Your tagline -->
+      <p class="tagline">Computer Science Student &amp; Aspiring Software Engeneer</p>
+
+      <!-- REPLACE: Your bio -->
+      <p class="bio">
+        I am a second-year BSc Computer Science student at the University of Venda,
+        passionate about building software that solves real problems for real people.
+        I enjoy exploring Human-Computer Interaction, web development, AI and the
+        intersection of technology and society.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn-outline">View My Work</a>
+        <a href="#contact"  class="btn-primary">Get In Touch</a>
+      </div>
+
+      <div class="scroll-hint">
+        <span>SCROLL</span>
+        <div class="scroll-line"></div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- SECTION 2: ABOUT -->
+  <section id="about">
+    <div class="inner">
+
+      <p class="section-label">02 / About</p>
+      <h2>A Little About Me</h2>
+
+      <div class="about-grid">
+
+        <!-- Card 1: Academic Background -->
+        <div class="about-card">
+          <span class="card-icon">🎓</span>
+          <h3>Academic Background</h3>
+          <!-- REPLACE: Your actual details -->
+          <p><strong>Degree:</strong> BSc Computer Science<br>University of Venda (UNIVEN)</p>
+          <p><strong>Year of Study:</strong> 2nd Year, 2026</p>
+          <p><strong>Key Modules:</strong> Human-Computer Interaction, Data Structures &amp; Algorithms, Databases, Artificial intelligence</p>
+          <p><strong>Academic Standing:</strong> In good standing</p>
+        </div>
+
+        <!-- Card 2: Skills & Tools -->
+        <div class="about-card">
+          <span class="card-icon">🛠️</span>
+          <h3>Skills &amp; Tools</h3>
+          <p class="skills-intro">Technologies I work with:</p>
+
+          <!-- REPLACE: Change percentages to match your real level -->
+          <d class="skill-bars">
+
+            <div class="skill-item">
+              <div class="skill-label">
+                <span>HTML &amp; CSS</span><span>75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="75"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-label">
+                <span>Python</span><span>65%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="65"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-label">
+                <span>Java</span><span>60%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="60"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-label">
+                <span>SQL / Databases</span><span>55%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="55"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-label">
+                <span>JavaScript</span><span>65%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="65"></div>
+              </div>
+            </div>
+
+          </d<div class="skill-item">
+              <div class="skill-label">
+                <span>C++</span><span>50%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="50"></div>
+              </div>
+            </div>iv>
+
+          <!-- Tool tags -->
+          <div class="tool-tags">
+            <span class="tag">VS Code</span>
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">Linux</span>
+            <span class="tag">Figma</span>
+            <span class="tag">Microsoft Office</span>
+          </div>
+        </div>
+
+        <!-- Card 3: Goals — spans full width -->
+        <div class="about-card about-card--wide">
+          <span class="card-icon"></span>
+          <h3>Career &amp; Academic Goals</h3>
+          <!-- REPLACE: Write your real goals -->
+          <p>
+            My short-term goal is to graduate with a strong academic record while
+            building practical experience through personal projects, internships,
+            and open-source contributions.
+          </p>
+          <p>
+            In the long term, I aspire to become a full-stack software Engeneer,
+            building impactful digital products — particularly for underserved
+            communities across Southern Africa,Africa and across the whole globe. I am especially interested in
+            applying HCI principles to design technology that is genuinely
+            accessible and inclusive.
+          </p>
+          <p>
+            I am currently Holding IBM Professional Data Science industry certifications along with Hong Kong Science and Technology University Software Engeneering specialisation Certificate not forgetting WeThinkCode Generative software engeneering & many more and seeking
+            internship opportunities to gain real-world experience before
+            completing my degree.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SECTION 3: PROJECTS -->
+  <section id="projects">
+    <div class="inner">
+
+      <p class="section-label">03 / Projects</p>
+      <h2>Things I've Built</h2>
+
+      <div class="projects-grid">
+
+        <!-- PROJECT 1 -->
+        <div class="project-card">
+          <span class="project-icon">🖥️</span>
+          <h3>Personal Budget Tracker</h3>
+          <p>
+            A web-based application that allows users to track income and expenses,
+            categorise transactions, and view monthly summaries through a simple
+            dashboard. Designed with HCI usability principles.
+          </p>
+          <div class="project-tools">
+            <span class="tag tag--amber">HTML5</span>
+            <span class="tag tag--amber">CSS3</span>
+            <span class="tag tag--amber">JavaScript</span>
+            <span class="tag tag--amber">Responsive Design</span>
+          </div>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+          <span class="project-icon">🗂️</span>
+          <h3>Student Study Planner</h3>
+          <p>
+            A responsive scheduling tool for university students featuring
+            a weekly timetable view, task priority tagging, and deadline
+            reminders. Built as an HCI interface design exercise with
+            wireframing and usability evaluation.
+          </p>
+          <div class="project-tools">
+            <span class="tag tag--amber">HTML</span>
+            <span class="tag tag--amber">CSS (Flexbox)</span>
+            <span class="tag tag--amber">Python</span>
+            <span class="tag tag--amber">Figma (wireframes)</span>
+          </div>
+        </div>
+
+        <!-- PROJECT 3: BLOCKCHAIN -->
+        <div class="project-card project-card--featured">
+          <div class="in-dev-badge">
+            <span class="pulse-dot"></span>
+            In Active Development
+          </div>
+          <span class="project-icon">⛓️</span>
+          <h3>Blockchain Data Integrity System</h3>
+          <p>
+            A blockchain-inspired system exploring secure, tamper-resistant
+            data storage using distributed ledger principles. Implements
+            SHA-256 hashing, block linking, and real-time tamper detection
+            with a live interactive demo.
+          </p>
+          <ul class="checklist">
+            <li class="done">Core blockchain structure implemented</li>
+            <li class="done">SHA-256 hashing via Web Crypto API</li>
+            <li class="done">Block linking &amp; chain validation</li>
+            <li class="done">Real-time tamper detection UI</li>
+            <li class="planned">Peer-to-peer node simulation</li>
+            <li class="planned">Proof-of-Work consensus mechanism</li>
+          </ul>
+          <div class="project-tools">
+            <span class="tag tag--amber">JavaScript</span>
+            <span class="tag tag--amber">Web Crypto API</span>
+            <span class="tag tag--amber">SHA-256</span>
+            <span class="tag tag--amber">HTML / CSS</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SECTION 4: CONTACT -->
+  <section id="contact">
+    <div class="inner">
+
+      <p class="section-label">04 / Contact</p>
+      <h2>Get In Touch</h2>
+
+      <div class="contact-grid">
+
+        <!-- Left: info -->
+        <div class="contact-info">
+          <p class="contact-intro">
+            I'm always open to connecting — whether it's about
+            opportunities, collaborations, or just a conversation about tech.
+          </p>
+
+          <ul class="contact-links">
+
+            <!--  my university email -->
+            <li>
+              <a href="mailto:yourname@univen.ac.za" class="contact-item">
+                <span class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20">
+                    <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                  </svg>
+                </span>
+                24032683@univen.ac.za
+              </a>
+            </li>
+
+             <!--GitHub username -->
+            <li>
+              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="contact-item">
+                <span class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.74.08-.73.08-.73 1.21.09 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.11-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 013-.4c1.02.005 2.04.14 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.65 1.66.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+                  </svg>
+                </span>
+                github.com/0636126549
+
+              </a>
+            </li>
+
+            <!-- REPLACE: linkedln details>
+            <li>
+              <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-item">
+                <span class="contact-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
+                </span>
+                linkedin.com/in/muimeleli-mudau-510a26321
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <!-- Right: form -->
+        <div class="contact-form-wrapper">
+          <form id="contact-form" novalidate>
+
+            <div class="form-group">
+              <label for="f-name">YOUR NAME</label>
+              <input type="text" id="f-name" placeholder="e.g. Muimeleli Mudau" />
+              <span class="form-error" id="err-name"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="f-email">EMAIL ADDRESS</label>
+              <input type="email" id="f-email" placeholder="e.g. muimeleli@email.com" />
+              <span class="form-error" id="err-email"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="f-message">MESSAGE</label>
+              <textarea id="f-message" rows="5" placeholder="What would you like to say?"></textarea>
+              <span class="form-error" id="err-message"></span>
+            </div>
+
+            <button type="submit" class="btn-primary btn-full">Send Message</button>
+            <p class="form-success" id="form-success"></p>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; <span id="year"></span> Your Name. Built with HTML, CSS &amp; JavaScript.</p>
+    <a href="#home" class="back-top">↑ Back to top</a>
+  </footer>
+
+
+  <!-- JAVASCRIPT -->
+  <script>
+
+    /* 1. Footer year */
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+
+    /* 2. Hamburger menu */
+    const hamburger  = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('open');
+      mobileMenu.classList.toggle('open');
+    });
+
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('open');
+        mobileMenu.classList.remove('open');
+      });
+    });
+
+
+    /* 3. Header shadow on scroll */
+    const header = document.getElementById('site-header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 20);
+    });
+
+
+    /* 4. Active nav link highlight */
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks  = document.querySelectorAll('.nav-link');
+
+    const navObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(link => {
+            link.classList.toggle(
+              'active',
+              link.dataset.section === entry.target.id
+            );
+          });
+        }
+      });
+    }, { rootMargin: '-40% 0px -55% 0px' });
+
+    sections.forEach(s => navObserver.observe(s));
+
+
+    /* 5. Skill bar animation */
+    let animated = false;
+    const skillObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !animated) {
+          animated = true;
+          document.querySelectorAll('.skill-fill').forEach((bar, i) => {
+            setTimeout(() => {
+              bar.style.width = bar.dataset.width + '%';
+            }, i * 150);
+          });
+        }
+      });
+    }, { threshold: 0.3 });
+
+    const aboutSection = document.getElementById('about');
+    if (aboutSection) skillObserver.observe(aboutSection);
+
+
+    /* 6. Contact form validation */
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const name    = document.getElementById('f-name').value.trim();
+      const email   = document.getElementById('f-email').value.trim();
+      const message = document.getElementById('f-message').value.trim();
+      const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+
+      document.getElementById('err-name').textContent    = '';
+      document.getElementById('err-email').textContent   = '';
+      document.getElementById('err-message').textContent = '';
+
+      let valid = true;
+
+      if (!name)         { document.getElementById('err-name').textContent    = 'Please enter your name.';    valid = false; }
+      if (!email)        { document.getElementById('err-email').textContent   = 'Please enter your email.';   valid = false; }
+      else if (!emailOk) { document.getElementById('err-email').textContent   = 'Enter a valid email address.'; valid = false; }
+      if (!message)      { document.getElementById('err-message').textContent = 'Please write a message.';    valid = false; }
+
+      if (valid) {
+        document.getElementById('form-success').textContent = '✓ Message sent! I will get back to you soon.';
+        this.reset();
+        setTimeout(() => {
+          document.getElementById('form-success').textContent = '';
+        }, 5000);
+      }
+    });
+
+  </script>
+
+</body>
+</html>
